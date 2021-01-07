@@ -1,12 +1,12 @@
 language: python
 python:
-  - "2.7"
+  - "3.6"
 script:
-  -pytest
+  - pytest
 
 notifications:
   email:
     recipients:
-      -zackchen@umich.edu
+      - zackchen@umich.edu
     on_success: never
     on_failure: always
